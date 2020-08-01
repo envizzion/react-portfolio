@@ -131,7 +131,7 @@ class App extends Component {
 
   componentDidMount() {
     //  this.unsubscribe = this.ref.onSnapshot(this.onCollectionUpdate);
-    this.getAllData();
+     this.getAllData();
     // this.getResumeData();
   }
   render() {

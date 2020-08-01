@@ -1,12 +1,12 @@
 {
   "main": {
-    "name":"Nordic-Gia Project",
-    "description":"I am a web development engineer and I use react and python to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "name":"Business Academy",
+    "description":"",
+    "image":"Picture11.jpg",
+    "bio":"Was the   Dean /president of Wayamba Vidya peeta  Education UNIVERSITY Sri J’Pura PIM. SLIIT AIT Bangkok Thailand , Sinagapore NYPS. UNECEF Malaysia ",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "phone": "0766666666",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
@@ -20,22 +20,22 @@
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"#",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"#",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"#",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"#",
         "className":"fa fa-instagram"
       },
       {
@@ -109,33 +109,33 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
+        "title":"Download",
+        "category":"MANAGEMENT STUDIES RESEARCHING 2",
+        "image":"1.jpg",
         "url":"https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
+        "title":"Download",
+        "category":"MANAGEMENT STUDIES RESEARCHING 3",
+        "image":"2.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
+        "title":"Download",
+        "category":"MANAGEMENT STUDIES RESEARCHING 3",
+        "image":"3.jpg",
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
+        "title":"Download",
+        "category":"MANAGEMENT STUDIES RESEARCHING 2",
+        "image":"1.jpg",
         "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
+        "title":"Download",
+        "category":"MANAGEMENT STUDIES RESEARCHING 2",
+        "image":"1.jpg",
         "url":"http://www.smirkspace.com"
       }
     ]
