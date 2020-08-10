@@ -139,5 +139,34 @@
         "url":"http://www.smirkspace.com"
       }
     ]
+  },
+
+  "adds":{
+    "advertisemnts": [
+      {
+        "title":"Add 1",
+        "category":"IELTS1",
+        "image":"1.jpg",
+        "url":"https://www.ielts.org/"
+      },
+      {
+        "title":"Add 2",
+        "category":"IELTS2",
+        "image":"2.jpg",
+        "url":"https://www.ielts.org/"
+      },
+      {
+        "title":"Add 3",
+        "category":"IELTS3",
+        "image":"2.jpg",
+        "url":"https://www.ielts.org/"
+      },
+      {
+        "title":"Add 4",
+        "category":"IELTS4",
+        "image":"2.jpg",
+        "url":"https://www.ielts.org/"
+      }
+    ]
   }
 }

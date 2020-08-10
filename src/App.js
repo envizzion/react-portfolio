@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import Adds from "./Components/Adds";
 import firebase from "./Firebase";
 class App extends Component {
   constructor(props) {
@@ -16,7 +17,8 @@ class App extends Component {
       resumeData: { 
                     main : '',
                     resume : '',
-                    portfolio : ''
+                    portfolio : '',
+                    adds: '',
                   }
     
     };
@@ -89,6 +91,20 @@ class App extends Component {
       .catch(function (error) {
         console.log("Error getting document:", error);
       });
+
+      this.ref
+      .doc("adds")
+      .get()
+      .then(function (doc) {
+       
+          // console.log("Document data:", doc.data());
+          state.resumeData.adds =doc.data() ;
+          self.setState(state);
+      })
+      .catch(function (error) {
+        console.log("Error getting document:", error);
+      });
+      
   }
 
   saveAllData() {
@@ -110,6 +126,13 @@ class App extends Component {
       .then(function () {
         console.log("Document successfully written!");
       });
+      
+      this.ref
+      .doc("adds")
+      .set(this.state.resumeData.adds)
+      .then(function () {
+        console.log("Document successfully written!");
+      })
   }
 
   getResumeData() {
@@ -131,7 +154,8 @@ class App extends Component {
 
   componentDidMount() {
     //  this.unsubscribe = this.ref.onSnapshot(this.onCollectionUpdate);
-     this.getAllData();
+    //this.saveAllData(); 
+    this.getAllData();
     // this.getResumeData();
   }
   render() {
@@ -142,6 +166,7 @@ class App extends Component {
         <Resume data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         <Contact data={this.state.resumeData.main} />
+        <Adds data={this.state.resumeData.adds} />
         <Footer data={this.state.resumeData.main} />
       </div>
     );
