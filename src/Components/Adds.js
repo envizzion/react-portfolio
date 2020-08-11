@@ -32,7 +32,7 @@ class Adds extends Component {
     
               <div className="twelve columns collapsed">
     
-                <h1>ADVERTISEMENTS</h1>
+                <h3>ADVERTISEMENTS</h3>
     
                 <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                   {advertisements}

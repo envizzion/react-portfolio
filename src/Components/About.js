@@ -1,6 +1,26 @@
 import React, { Component } from 'react';
+//import firebase from "./Firebase"; 
 
 class About extends Component {
+  /* constructor () {
+      super()
+      this.state = {
+        Picture11: ''
+      }
+
+      this.getImage('Picture11')
+   }
+   getImage (image) {
+      let { state } = this
+      firebase.storage.child(`${image}.jpg`).getDownloadURL().then((url) => {
+        state[image] = url
+        this.setState(state)
+      }).catch((error) => {
+        // Handle any errors
+      })
+    }*/
+   
+
   render() {
 
     if(this.props.data){
